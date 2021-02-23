@@ -11,7 +11,9 @@
 }
 .dropdown-item{
     color: #fff !important;
-    
+}
+.dropdown-item:hover{
+    background-color: #525050;
 }
 .fa-shopping-cart{
     font-size:30px !important;
