@@ -1,0 +1,104 @@
+.navbar{
+    background-color: #D32F2F !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold  !important;
+}
+.dropdown-menu{
+    background-color: #D32F2F !important;
+}
+.dropdown-item{
+    color: #fff !important;
+    
+}
+.fa-shopping-cart{
+    font-size:30px !important;
+}
+.fa-user-circle-o{
+    font-size:30px !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up,.fa-exchange{
+    font-size: 50px !important;
+    margin-right: 10px;
+}
+.maincard{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.card1,.card2,.card3,.card4{
+    display: flex;
+    width: 400px;
+    height:100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    color: #D32F2F;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: transform .2s;  
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+font-size: 100px;
+background-color: #D32F2F;
+border-radius: 10px;
+color: black;
+transform: scale(1.1);
+}
+.heading1{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 70px;
+text-align: center;
+margin-bottom: 60px;
+margin-top: 60px;
+font-weight: bold;
+color:#D32F2F;
+box-shadow: 2px 2px 3px gray;
+text-shadow: 1px 2px 2px gray;
+}
+.subtitle{
+    font-size: 20px;
+    color: #111010;
+    text-shadow: 1px 1px 1px gray;
+}
+.NewArrivals{
+    margin-top:50px;
+}
+.card-img-top{
+    width: auto !important;
+    height: 220px !important;
+}
+.card-title{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color:#D32F2F !important;
+    /* font-weight: bold; */
+    
+}
+.btn-primary:hover {
+    color:rgb(219, 213, 213) !important;
+    box-shadow: 4px 4px 4px gray;
+    background-color: #d12828  !important;
+}
+.card{
+ /* width: 280px;  */
+height: auto; 
+margin-bottom:40px; 
+box-shadow: 4px 4px 4px 4px  gray;
+transition: transform .2s;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
